@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Countdown from "react-countdown";
-import Gif from "../Assets/blower.gif";
+import Gif from "../assets/blower.gif";
 function Endtime() {
   const renderer = ({ hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -15,7 +15,7 @@ function Endtime() {
       return (
         <div style={{backgroundImage: `url(${Gif})`}}>
           <div className="ends-in pb-4">Ends in</div>
-          <div className="d-flex justify-content-center gap-4">
+          <div className="d-flex justify-content-center gap-4 remove-gap">
             <div className="d-flex flex-column pd-left ">
               <span className="times">
                 {hours < 10 && hours >= 0 ? `0${hours}` : hours}

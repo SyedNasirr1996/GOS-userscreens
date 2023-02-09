@@ -8,6 +8,19 @@
     margin-left: 20px;
 }
 
+p.card-desc{
+    font-size: 13px;
+  /* word-wrap: break-word;
+  word-break: break-all;
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: clip;  */
+  
+}
+
+
+
 .title .view-all{
     font-size: 25px;
     font-weight: 700;
@@ -22,7 +35,7 @@
     font-weight: 600;
     color: black;
 }
-.code{
+.code-clr{
     font-size: 15px;
     color: black;
     padding-left: 10px;
@@ -124,5 +137,46 @@
 
  }
 
- 
+ @media only screen and (max-width: 350px) {
+    .times,.time-text {
+      font-size: 10px;
+      font: italic normal bold 10px/10px Swis721 Cn BT;
+    }
+    .pd-left {
+        padding-left: 0px;
+
+    }
+    .title .view-all{
+        font-size: 13px;
+    }
+    .offer-titel {
+        font-size: 13px;
+    }
+    .card-scroll{
+    /* flex-wrap: nowrap; */
+    /* white-space: nowrap; */
+    overflow: hidden;
+    overflow-x: scroll;
+    
+    }
+    .card-scroll::-webkit-scrollbar { 
+    display: none; 
+    }
+    .remove-gap {
+        gap: 0px !important;
+        text-align: end;
+    }
+    .card-title {
+        font-size: 9px;
+        font-weight: 200;
+    }
+    p.card-desc{
+        font-size: 9px;
+        font-weight: 100;
+    }
+    .text-muted span{
+        font-size: 10px;
+        font-weight: 200;
+    }
+  }
 
