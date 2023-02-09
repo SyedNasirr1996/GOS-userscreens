@@ -1,9 +1,10 @@
 import React from "react";
-import "../Components/Styles/homepageStyles.css";
-import cardimg1 from "../Components/Images/cardimg1.svg";
-import cardimg2 from "../Components/Images/cardimg2.svg";
-import cardimg3 from "../Components/Images/cardimg3.svg";
-import loc from "../Components/Images/loc.gif";
+import cardimg1 from "../assets/cardimg1.svg";
+import cardimg2 from "../assets/cardimg2.svg";
+import cardimg3 from "../assets/cardimg3.svg";
+// import "../styles/homepagestyles.css";
+import loc from "../assets/loc.gif";
+import "../components/styles/styless.css";
 import {
   FormControl,
   InputLabel,
@@ -125,7 +126,7 @@ function Homepage() {
             <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
               <div class="col-5 scrollcard">
                 <div class="card card-block card-1">
-                  <img src={loc} style={{ borderRadius: "50px" }}></img>
+                  <img src={loc} style={{borderRadius:"50px"}} alt="location"></img>
                 </div>
                 <p className="textpos">Nearby</p>
               </div>
