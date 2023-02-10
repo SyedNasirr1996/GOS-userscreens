@@ -1,16 +1,16 @@
 import React from "react";
 import "../components/styles/Style.css";
-import black from "../Assets/black.jpg";
+import black from "../assets/black.jpg";
 import sing from "../assets/singh.jpg";
-import mount from "../Assets/mount.jpg";
-import sea from "../Assets/sea.jpg";
+import mount from "../assets/mount.jpg";
+import sea from "../assets/sea.jpg";
 import House from "../assets/house.jpg";
-import boat from "../Assets/boat.jpg";
-import ab from "../Assets/13.jpg";
+import boat from "../assets/boat.jpg";
+import ab from "../assets/13.jpg";
 import ac from "../assets/14.jpg";
-import ad from "../Assets/15.jpg";
-import ae from "../Assets/16.jpg";
-import af from "../Assets/17.jpg";
+import ad from "../assets/15.jpg";
+import ae from "../assets/16.jpg";
+import af from "../assets/17.jpg";
 
 function Introducing() {
   return (
