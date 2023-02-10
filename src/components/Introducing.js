@@ -1,13 +1,13 @@
 import React from "react";
 import "../components/styles/Style.css";
 import black from "../Assets/black.jpg";
-import sing from "../Assets/singh.jpg";
+import sing from "../assets/singh.jpg";
 import mount from "../Assets/mount.jpg";
 import sea from "../Assets/sea.jpg";
-import House from "../Assets/house.jpg";
+import House from "../assets/house.jpg";
 import boat from "../Assets/boat.jpg";
 import ab from "../Assets/13.jpg";
-import ac from "../Assets/14.jpg";
+import ac from "../assets/14.jpg";
 import ad from "../Assets/15.jpg";
 import ae from "../Assets/16.jpg";
 import af from "../Assets/17.jpg";

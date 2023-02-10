@@ -21,7 +21,7 @@ function Homepage() {
   };
 
   return (
-    <div>
+    <div className="bodypart">
       <section className="banner">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
@@ -125,45 +125,45 @@ function Homepage() {
           <div class="container-fluid">
             <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
               <div class="col-5 scrollcard">
-                <div class="card card-block card-1">
+                <div class="card card-block cardd-1">
                   <img src={loc} style={{borderRadius:"50px"}} alt="location"></img>
                 </div>
                 <p className="textpos">Nearby</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-2"></div>
+                <div class="card card-block cardd-2"></div>
                 <p className="textpos">Kochi</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-3"></div>
+                <div class="card card-block cardd-3"></div>
                 <p className="textpos">Munnar</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-4"></div>
+                <div class="card card-block cardd-4"></div>
                 <p className="textpos">Allepie</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-5"></div>
+                <div class="card card-block cardd-5"></div>
                 <p className="textpos">Kochi</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-6"></div>
+                <div class="card card-block cardd-6"></div>
                 <p className="textpos">Munnar</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-7"></div>
+                <div class="card card-block cardd-7"></div>
                 <p className="textpos">Allepie</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-8"></div>
+                <div class="card card-block cardd-8"></div>
                 <p className="textpos">Kochi</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-9"></div>
+                <div class="card card-block cardd-9"></div>
                 <p className="textpos">Munnar</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block card-10"></div>
+                <div class="card card-block cardd-10"></div>
                 <p className="textpos">Allepie</p>
               </div>
               <div class="col-5 scrollcard">
