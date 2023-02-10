@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/styles/Style.css";
+import "../components/styles/Style.css";  
 import black from "../Assets/black.jpg";
 import sing from "../Assets/singh.jpg";
 import mount from "../Assets/mount.jpg";
