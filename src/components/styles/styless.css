@@ -85,7 +85,7 @@
   .cardblock {
     height: 80px;
     width: 80px;
-    background-color: #fff;
+    background-color: #fff !important;
     border: none;
     background-position: center;
     background-size: cover;

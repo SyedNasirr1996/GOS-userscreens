@@ -1,0 +1,182 @@
+.row {
+    --bs-gutter-x: none !important;
+}
+.offer-titel {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+p.card-desc{
+    font-size: 13px;
+  /* word-wrap: break-word;
+  word-break: break-all;
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: clip;  */
+  
+}
+
+
+
+.title .view-all{
+    font-size: 25px;
+    font-weight: 700;
+    color: #005198;
+    margin-right: 20px;
+}
+.text-left{
+    text-align: start;
+}
+.card-title{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.code-clr{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+}
+.coup{
+    font-size: 15px;
+    color: #1674DE;
+    font-weight: 700;
+}
+
+.card-footer{
+    background-color: #fff;
+    border-top: none !important;
+}
+
+/****************Endtine Component***************/
+.pd-left {
+    padding-left: 5px;
+}
+.ends-in{
+    color: #ffd02d;
+    text-shadow: 1px 1px 0px #005198;
+    font: italic normal bold 50px/50px Swis721 Cn BT;
+}
+.times {
+    /* font-size: 50px;
+    font-weight: 700; */
+    color: #d62828;
+    padding-bottom: 15px;
+    font: italic normal bold 50px/50px Swis721 Cn BT;
+}
+
+.time-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+.deals-text{
+    /* font-size: 35px; */
+    color: #ffd02d;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+    text-shadow: 1px 1px 0px #005198;
+    font: italic normal bold 50px/50px Swis721 Cn BT;
+}
+.deals-flash{
+    /* font-size: 35px;
+    font-weight: 500; */
+    color: #ffd02d;
+    padding-right: 30px;
+    margin-bottom: 0px !important;  
+    text-shadow: 1px 1px 0px #005198;
+    font: italic normal bold 40px/50px Swis721 Cn BT;
+}
+.shake {
+    /* font-size: 50px;
+    font-weight: 700; */
+    background-color: #0194fe;
+    color: #ffff;
+    text-shadow: 1px 1px 0px #005198;
+    font: italic normal bold 60px/50px Swis721 Cn BT;
+    
+}
+.fa-bolt{
+    font-size: 40px;
+    /* font-style: italic; */
+    color: #ffd02d;
+    padding-right: 10px;
+    animation: fa-bolt-animation 3.72s ease infinite;
+ }
+ @keyframes fa-bolt-animation {
+    0% {
+      box-shadow: 0 0px 0px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 0px 0px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 0px 0px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }
+
+.shake {
+    animation: shake-animation 3.72s ease infinite;
+    transform-origin: 50% 50%;
+  }
+
+  @keyframes shake-animation {
+    0% { transform: translateX(0) }
+  25% { transform: translateY(-9px) }
+  35% { transform: translateY(-9px) rotate(17deg) }
+  55% { transform: translateY(-9px) rotate(-17deg) }
+  65% { transform: translateY(-9px) rotate(17deg) }
+  75% { transform: translateY(-9px) rotate(-17deg) }
+  100% { transform: translateY(0) rotate(0) }
+
+ }
+
+ @media only screen and (max-width: 350px) {
+    .times,.time-text {
+      font-size: 10px;
+      font: italic normal bold 10px/10px Swis721 Cn BT;
+    }
+    .pd-left {
+        padding-left: 0px;
+
+    }
+    .title .view-all{
+        font-size: 13px;
+    }
+    .offer-titel {
+        font-size: 13px;
+    }
+    .card-scroll{
+    /* flex-wrap: nowrap; */
+    /* white-space: nowrap; */
+    overflow: hidden;
+    overflow-x: scroll;
+    
+    }
+    .card-scroll::-webkit-scrollbar { 
+    display: none; 
+    }
+    .remove-gap {
+        gap: 0px !important;
+        text-align: end;
+    }
+    .card-title {
+        font-size: 9px;
+        font-weight: 200;
+    }
+    p.card-desc{
+        font-size: 9px;
+        font-weight: 100;
+    }
+    .text-muted span{
+        font-size: 10px;
+        font-weight: 200;
+    }
+  }
+
