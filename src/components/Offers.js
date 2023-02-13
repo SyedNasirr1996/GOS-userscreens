@@ -58,24 +58,23 @@ function Offers() {
                     alt="..."
                   />
                 </div>
-                <div className="col-md-6 col-sm-6 text-left">
+                {/* <div className="col-md-6 col-sm-6 text-left">
                   <div className="card-body">
                     <h5 className="card-title">{val.titel}</h5>
                     <p className="card-text card-desc">{val.desc}</p>
                   </div>
-                </div>
-                <div className="card-text">
+                </div> */}
+                {/* <div className="card-text">
                   <div className="text-muted row">
                     <span className="code-clr col-md-4 col-sm-12">Copy Code :</span>
                     <span className="coup col-md-4 col-sm-12">
                       {val.coupen}
                     </span>
                     <span className="col-md-4 col-sm-12">
-                      {/* <i className="fa-solid fa-clone"></i> */}
                       <FontAwesomeIcon icon={faClone} />
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           );

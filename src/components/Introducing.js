@@ -182,7 +182,7 @@ function Introducing() {
             <div className=" container col-md-4 col-sm-6">
                 <div className="hover01 column">
                   <figure>
-                    <img src={ab} className=" img col-md-4 w-100" />
+                    <img src={ab} className=" imgg col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Maldives</h4>
@@ -192,7 +192,7 @@ function Introducing() {
               <div className=" container col-md-4 col-sm-6">
                 <div className="hover01 column">
                   <figure>
-                    <img src={boat} className=" img col-md-4 w-100" />
+                    <img src={boat} className=" imgg col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Lion City</h4>
@@ -202,7 +202,7 @@ function Introducing() {
               <div className=" container col-md-4 col-sm-6 ">
                 <div className="hover01 column">
                   <figure>
-                    <img src={ad}className=" img col-md-4 w-100" />
+                    <img src={ad}className=" imgg col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Kaula Lampur</h4>
@@ -212,7 +212,7 @@ function Introducing() {
               <div className=" container col-md-4 col-sm-6 ">
                 <div className="hover01 column">
                   <figure>
-                    <img src={ae} className=" img col-md-4 w-100" />
+                    <img src={ae} className=" imgg col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Alleppey</h4>
@@ -222,7 +222,7 @@ function Introducing() {
               <div className=" container col-md-4 col-sm-6">
                 <div className="hover01 column">
                   <figure>
-                    <img src={af} className=" img col-md-4 w-100" />
+                    <img src={af} className=" imgg col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Munar</h4>
@@ -232,7 +232,7 @@ function Introducing() {
               <div className=" container col-md-4 col-sm-6 ">
                 <div className="hover01 column">
                   <figure>
-                    <img src={ab} className=" img col-md-4 w-100" />
+                    <img src={ab} className=" imgg col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Kochi</h4>

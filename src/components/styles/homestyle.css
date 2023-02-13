@@ -1,0 +1,150 @@
+.loginbutton {
+    display: flex;
+    justify-content: end;
+    padding-top: 2%;
+    padding-right: 2%;
+    border-color: white;
+    border-width: 2px;
+  }
+  
+  .cardss {
+    justify-content: center !important;
+    justify-content: space-evenly !important;
+    margin-top: 5% !important;
+  }
+  
+  .carditemm {
+    height: fit-content !important;
+    padding: 9px !important;
+    text-align: center !important;
+    height: 130px !important;
+  }
+  
+  .cardcont {
+    display: contents !important;
+  }
+  
+  .boxcont {
+    background-color: white !important;
+    margin-top: 3% !important;
+    margin-bottom: 2% !important;
+    border-radius: 10px !important;
+  }
+  .firstcon {
+    text-align: initial !important;
+  }
+  .imgup{
+      animation: float 2s infinite alternate-reverse ease-in-out;
+      outline: none;
+      width: 1px;
+  }
+  
+  /* ===== */
+  
+  .textpos {
+    margin-right: 45px !important;
+    color: #fff !important;
+  }
+  .scrollcard {
+    width: 120px !important;
+  }
+  
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    
+  }
+  .scrolling-wrapper::-webkit-scrollbar{
+      display: none;
+  }
+
+  
+  
+  body {
+    background-color: #0194fe;
+    color: #0f0f0f;
+    font-family: "system-ui";
+  }
+
+  
+  h1 {
+    font-weight: 700;
+    font-size: 3.4em;
+  }
+  
+  .subtitle {
+    font-size: 1.25em;
+    opacity: 0.65;
+  }
+  
+  .card-block {
+    height: 80px !important;
+    width: 80px !important;
+    background-color: #fff !important;
+    border: none !important;
+    background-position: center !important;
+    background-size: cover !important;
+    transition: all 0.2s ease-in-out !important;
+    border-radius: 800px !important;
+    /* &:hover {
+      transform: translateY(-5px);
+      box-shadow: none;
+      opacity: 0.9;
+    } */
+  }
+  
+  .boxmain {
+    height: 80px !important;
+    width: 80px !important;
+    background-color: #fff !important;
+    border: none !important;
+    background-position: center !important;
+    background-size: cover !important;
+    transition: all 0.2s ease-in-out !important;
+    border-radius: 800px !important;
+  }
+  
+  .cardd1 {
+    background-color: white !important;
+    background-size: 77px !important;
+    border-radius: 80px !important;
+  }
+  
+  .cardd-2 {
+    background-color: white !important;
+  }
+  
+  .card-3 {
+    background-color: white !important;
+  }
+  
+  .card-4 {
+    background-color: white !important;
+  }
+  
+  .card-5 {
+    background-color: white !important;
+  }
+  
+  .card-6 {
+    background-color: white !important;
+  }
+  
+  .card-7 {
+    background-color: white !important;
+  }
+  
+  .card-8 {
+    background-color: white !important;
+  }
+  
+  .card-9 {
+    background-color: white !important;
+  }
+  
+  .card-10 {
+    background-color: white !important;
+  }
+
+  
+  /* ======= */
+  

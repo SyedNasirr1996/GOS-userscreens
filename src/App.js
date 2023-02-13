@@ -11,7 +11,6 @@ function App() {
   return (
     <div>
       <Homepage />
-      <Introducing />
     <div className="card text-center">
       <div className="card-body row"> 
           <div className="col-md-6">
@@ -25,6 +24,7 @@ function App() {
         <Offers />
       </div>
     </div>
+    <Introducing />
     </div>
   );
 }

@@ -4,8 +4,10 @@ import cardimg2 from "../assets/cardimg2.svg";
 import cardimg3 from "../assets/cardimg3.svg";
 // import "../styles/homepagestyles.css";
 import loc from "../assets/loc.gif";
-import "../components/styles/styless.css";
+// import "../components/styles/styless.css";
+import "./styles/homestyle.css"
 import {
+  Button,
   FormControl,
   InputLabel,
   MenuItem,
@@ -86,7 +88,7 @@ function Homepage() {
         <div className="container d-flex cardss">
           <div
             className="card carditemm col-xs-2"
-            style={{ width: "5rem", height: "5.4rem" }}
+            style={{ width: "5rem", height: "5.4rem", padding: "15px" }}
           >
             <img src={cardimg1} className="card-img-top" alt="..." />
             <div className="card-body cardcont">
@@ -95,7 +97,7 @@ function Homepage() {
           </div>
           <div
             className="card carditemm col-xs-2"
-            style={{ width: "5rem", height: "5.4rem" }}
+            style={{ width: "5rem", height: "5.4rem", padding: "15px" }}
           >
             <img src={cardimg2} className="card-img-top" alt="..." />
             <div className="card-body cardcont">
@@ -103,8 +105,8 @@ function Homepage() {
             </div>
           </div>
           <div
-            className="card carditemm"
-            style={{ width: "5rem", height: "5.4rem" }}
+            className="card carditemm col-xs-2"
+            style={{ width: "5rem", height: "5.4rem", padding: "15px" }}
           >
             <img src={cardimg3} className="card-img-top" alt="..." />
             <div className="card-body cardcont">
@@ -112,8 +114,8 @@ function Homepage() {
             </div>
           </div>
           <div
-            className="card carditemm"
-            style={{ width: "5rem", height: "5.4rem" }}
+            className="card carditemm col-xs-2"
+            style={{ width: "5rem", height: "5.4rem", padding: "15px" }}
           >
             <img src={cardimg1} className="card-img-top" alt="..." />
             <div className="card-body cardcont">
@@ -125,45 +127,45 @@ function Homepage() {
           <div class="container-fluid">
             <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-1">
-                  <img src={loc} style={{borderRadius:"50px"}} alt="location"></img>
+                <div class="card card-block card-1">
+                  <img src={loc} style={{borderRadius:"50px"}}></img>
                 </div>
                 <p className="textpos">Nearby</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-2"></div>
+                <div class="card card-block card-2"></div>
                 <p className="textpos">Kochi</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-3"></div>
+                <div class="card card-block card-3"></div>
                 <p className="textpos">Munnar</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-4"></div>
+                <div class="card card-block card-4"></div>
                 <p className="textpos">Allepie</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-5"></div>
+                <div class="card card-block card-5"></div>
                 <p className="textpos">Kochi</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-6"></div>
+                <div class="card card-block card-6"></div>
                 <p className="textpos">Munnar</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-7"></div>
+                <div class="card card-block card-7"></div>
                 <p className="textpos">Allepie</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-8"></div>
+                <div class="card card-block card-8"></div>
                 <p className="textpos">Kochi</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-9"></div>
+                <div class="card card-block card-9"></div>
                 <p className="textpos">Munnar</p>
               </div>
               <div class="col-5 scrollcard">
-                <div class="card card-block cardd-10"></div>
+                <div class="card card-block card-10"></div>
                 <p className="textpos">Allepie</p>
               </div>
               <div class="col-5 scrollcard">
@@ -173,9 +175,11 @@ function Homepage() {
             </div>
           </div>
         </div>
+
+        <div>
         <div
           className="grid-layouts container boxcont"
-          style={{ padding: "25px" }}
+          style={{ padding: "25px", width:"80%",marginTop:"0%", zIndex:"1"}}
         >
           <div className="row firstcon">
             <h5>Where would you like to go?</h5>
@@ -204,7 +208,7 @@ function Homepage() {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-sm-3 col-xs-3">
               <h5>Check-In</h5>
               <TextField
                 id="date"
@@ -217,7 +221,7 @@ function Homepage() {
                 }}
               />
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-3 col-xs-3">
               <h5>Check-Out</h5>
               <TextField
                 id="date"
@@ -230,7 +234,7 @@ function Homepage() {
                 }}
               />
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-3">
               <h5>Guest</h5>
               <FormControl
                 sx={{ m: 0, minWidth: 80 }}
@@ -257,21 +261,19 @@ function Homepage() {
                 </Select>
               </FormControl>
             </div>
-            <div
-              className="col-md-2 btn btn-primary"
-              style={{ height: "40px", marginTop: "40px" }}
-            >
-              Search
+            <div className="col-sm-3">
+              <Button variant="contained" className="srchbtn">Search</Button>
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="wavy">
           <path
             fill="#ffff"
             fill-opacity="1"
             d="M0,96L40,128C80,160,160,224,240,234.7C320,245,400,203,480,160C560,117,640,75,720,53.3C800,32,880,32,960,42.7C1040,53,1120,75,1200,101.3C1280,128,1360,160,1400,176L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
           ></path>
         </svg>
+        </div>
       </section>
     </div>
   );
