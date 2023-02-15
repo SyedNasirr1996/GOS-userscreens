@@ -1,0 +1,17 @@
+.BottomNav {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .BottomNav {
+      display: block;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 5;
+      color: white;
+      text-align: center;
+    }
+  }
+  
