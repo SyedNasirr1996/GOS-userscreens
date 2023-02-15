@@ -1,3 +1,11 @@
+.homepage{
+  display: block;
+}
+@media only screen and (max-width: 500px) {
+  .homepage {
+      display: none;
+  }
+} 
 .loginbutton {
     display: flex;
     justify-content: end;

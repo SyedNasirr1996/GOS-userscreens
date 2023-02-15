@@ -5,12 +5,15 @@ import "./styles/homepagestyles.css";
 import Deals from "./components/Deals";
 import Endtime from "./components/Endtime";
 import Offers from "./components/Offers";
+import ButtonTabs from './components/ButtonTabs';
+import Mobilehomepage from './components/Mobilehomepage';
 
 
 function App() {
   return (
     <div>
       <Homepage />
+      <Mobilehomepage />
     <div className="card text-center">
       <div className="card-body row"> 
           <div className="col-md-6">
@@ -25,6 +28,7 @@ function App() {
       </div>
     </div>
     <Introducing />
+    <ButtonTabs />
     </div>
   );
 }
