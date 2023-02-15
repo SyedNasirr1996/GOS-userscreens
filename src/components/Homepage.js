@@ -183,7 +183,7 @@ function Homepage() {
         >
           <div className="row firstcon">
             <h5>Where would you like to go?</h5>
-            <div className="col-md-8">
+            <div className="col-md-8 col-sm-8 col-xs-8">
               <div className="input-group mb-3">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
@@ -208,7 +208,7 @@ function Homepage() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-3 col-xs-3">
+            <div className="col-sm-3 col-xs-2">
               <h5>Check-In</h5>
               <TextField
                 id="date"
