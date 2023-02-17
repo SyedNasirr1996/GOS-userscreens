@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/styles/Style.css";  
+import "../components/styles/Style.css";
 import black from "../Assets/black.jpg";
 import sing from "../Assets/singh.jpg";
 import mount from "../Assets/mount.jpg";
@@ -18,14 +18,13 @@ function Introducing() {
       <div>
         <section>
           <div className="introducing-area">
-            <div className="container">
+            <div className="container grid-container">
               <h1 className="into-content">Gos Introducing</h1>
-
               <div className="row">
-                <div className=" col-xs-6 col-md-6 my-5">
+                <div className=" col-xs-6 col-md-6 my-3 ">
                   <div className="single-intro">
                     <div className="card1 ">
-                      <img src={black} className="intro-img" />
+                      <img src={black} className="intro-img rounded mx-auto d-block rounded mx-auto d-block col-xs-6" />
                       <div className="card-text1">
                         <h4>Hotel Reservation</h4>
                       </div>
@@ -38,10 +37,10 @@ function Introducing() {
                     </div>
                   </div>
                 </div>
-                <div className=" col-xs-6 col-md-6 my-5 ">
+                <div className=" col-xs-6 col-md-6 my-3 ">
                   <div className="single-intro">
                     <div className="card1">
-                      <img src={boat} alt="img" className="intro-img" />
+                      <img src={boat} alt="img" className="intro-img rounded mx-auto d-block" />
                       <div className="card-text1">
                         <h4>House boat</h4>
                       </div>
@@ -57,10 +56,10 @@ function Introducing() {
                     </div>
                   </div>
                 </div>
-                <div className=" col-xs-6 col-md-6 my-5">
+                <div className=" col-xs-6 col-md-6 my-3">
                   <div className="single-intro">
                     <div className="card1">
-                      <img src={mount} alt="img" className="intro-img" />
+                      <img src={mount} alt="img" className="intro-img rounded mx-auto d-block" />
                       <div className="card-text1">
                         <h4>Packages</h4>
                       </div>
@@ -73,10 +72,10 @@ function Introducing() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xs-6 col-md-6 my-5">
+                <div className="col-xs-6 col-md-6 my-3">
                   <div className="single-intro">
                     <div className="card1">
-                      <img src={sea} alt="img" className="intro-img" />
+                      <img src={sea} alt="img" className="intro-img rounded mx-auto d-block" />
                       <div className="card-text1">
                         <h4>Shikara</h4>
                       </div>
@@ -94,9 +93,9 @@ function Introducing() {
           </div>
         </section>
         {/* <section>
-          <div className="container">
+          <div className="content">
             <h1>GOS Best Selling Destinantions</h1>
-            <div className="row my-4">
+            <div className="row my-3">
               <div className="col-md-4 img-hover">
                 <div className="card">
                   <div className="hover01 column">
@@ -160,7 +159,7 @@ function Introducing() {
                 </div>
               </div>
               
-              <div className=" container col-md-4 ">
+              <div className=" content col-md-4 ">
                 <div className="hover01 column">
                   <div className="card">
                     <figure>
@@ -176,10 +175,10 @@ function Introducing() {
           </div>
         </section> */}
         <section>
-          <div className="container">
+          <div className="container grid-container">
             <h1>GOS Best Selling Destinantions</h1>
-            <div className="row my-4">
-            <div className=" container col-md-4 col-sm-6">
+            <div className="row my-3">
+              <div className=" content col-md-4 col-sm-6 col-xs-6">
                 <div className="hover01 column">
                   <figure>
                     <img src={ab} className=" img col-md-4 w-100" />
@@ -189,7 +188,7 @@ function Introducing() {
                   </div>
                 </div>
               </div>
-              <div className=" container col-md-4 col-sm-6">
+              <div className=" content col-md-4 col-sm-6 col-xs-6 ">
                 <div className="hover01 column">
                   <figure>
                     <img src={boat} className=" img col-md-4 w-100" />
@@ -199,17 +198,17 @@ function Introducing() {
                   </div>
                 </div>
               </div>
-              <div className=" container col-md-4 col-sm-6 ">
+              <div className=" content col-md-4 col-sm-6 col-xs-6 ">
                 <div className="hover01 column">
                   <figure>
-                    <img src={ad}className=" img col-md-4 w-100" />
+                    <img src={ad} className=" img col-md-4 w-100" />
                   </figure>
                   <div className="card-text1">
                     <h4>Kaula Lampur</h4>
                   </div>
                 </div>
               </div>
-              <div className=" container col-md-4 col-sm-6 ">
+              <div className=" content col-md-4 col-sm-6 col-xs-6">
                 <div className="hover01 column">
                   <figure>
                     <img src={ae} className=" img col-md-4 w-100" />
@@ -219,7 +218,7 @@ function Introducing() {
                   </div>
                 </div>
               </div>
-              <div className=" container col-md-4 col-sm-6">
+              <div className=" content col-md-4 col-sm-6 col-xs-6">
                 <div className="hover01 column">
                   <figure>
                     <img src={af} className=" img col-md-4 w-100" />
@@ -229,7 +228,7 @@ function Introducing() {
                   </div>
                 </div>
               </div>
-              <div className=" container col-md-4 col-sm-6 ">
+              <div className=" content col-md-4 col-sm-6 col-xs-6">
                 <div className="hover01 column">
                   <figure>
                     <img src={ab} className=" img col-md-4 w-100" />
